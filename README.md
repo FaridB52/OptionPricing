@@ -3,7 +3,7 @@
 This is a proposal for option pricing strategies by incorporating advanced machine learning techniques. Given the complexity and dynamic nature of financial markets, especially in the realm of options trading, traditional models like the Black-Scholes, while foundational, often fall short of capturing real-world intricacies. By leveraging machine learning, we can potentially achieve more accurate and robust option pricing; we study the ticker symbol ‘SPY’, an S&P 500 ETF.
 
 ## Problem Statement
-The primary problem we aim to improving the accuracy of option pricing models with respect to Black-Scholes. Traditional models, such as Black-Scholes, assume constant volatility and interest rates, which are rarely reflective of market realities. Our goal is to predict the price of put options for the ‘SPY’ ticker with higher precision by utilizing machine learning models that can learn from historical data and adapt to market conditions dynamically.
+The primary problem we aim is to improving the accuracy of option pricing models with respect to Black-Scholes. Traditional models, such as Black-Scholes, assume constant volatility and interest rates, which are rarely reflective of market realities. Our goal is to predict the price of put options for the ‘SPY’ ticker with higher precision by utilizing machine learning models that can learn from historical data and adapt to market conditions dynamically.
 
 ## Constraints and Challenges
 While machine learning offers promising avenues for enhancing option pricing, there are several constraints and challenges we must consider:
