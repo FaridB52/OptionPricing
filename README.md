@@ -1,4 +1,4 @@
-### OptionPricing
+# OptionPricing
 
 Machine Learning and Option Pricing: A Proposal for Predicting Option Price for the Ticker ‘SPY’
 This is a proposal for option pricing strategies by incorporating advanced machine learning techniques. Given the complexity and dynamic nature of financial markets, especially in the realm of options trading, traditional models like the Black-Scholes, while foundational, often fall short of capturing real-world intricacies. By leveraging machine learning, we can potentially achieve more accurate and robust option pricing; we study the ticker symbol ‘SPY’, an S&P 500 ETF.
@@ -8,13 +8,13 @@ The primary problem we aim to improving the accuracy of option pricing models wi
 
 ## Constraints and Challenges
 While machine learning offers promising avenues for enhancing option pricing, there are several constraints and challenges we must consider:
-# Data Quality and Availability: 
+### Data Quality and Availability: 
 The accuracy of our predictions heavily relies on the quality and completeness of the historical data we feed into our models. Inaccurate or missing data can significantly skew our results.
-# Market Anomalies: 
+### Market Anomalies: 
 Sudden market events or anomalies, such as geopolitical tensions or economic shifts, can create scenarios that our models may not be adequately trained to handle.
-# Overfitting:
+### Overfitting:
 There is a risk that our models might overfit to historical data, capturing noise instead of underlying patterns, which would result in poor predictive performance on new, unseen data.
-# Computational Resources:
+### Computational Resources:
 Training complex machine learning models can be resource-intensive, requiring significant computational power and time.
 
 ## Data Source
@@ -29,14 +29,15 @@ Building and training machine learning models to predict option prices, evaluati
 
 ## Criteria for Success
 The success of this project will be measured by the following criteria:
-# Accuracy: 
+### Accuracy: 
 Our models should significantly outperform traditional pricing models in terms of prediction accuracy, measured by metrics such as Mean Squared Error (MSE) or Mean Absolute Error (MAE).
-# Robustness: 
+### Robustness: 
 The models must demonstrate resilience to market anomalies and maintain predictive performance across different market conditions.
-# Efficiency: 
+### Efficiency: 
 The models should be computationally efficient, providing timely predictions that can be effectively integrated into our trading strategies.
 
 The following is the information of the put option data that we use: 
+```
 RangeIndex: 62 entries, 0 to 61
 Data columns (total 14 columns):
  #   Column             Non-Null Count  Dtype              
@@ -56,4 +57,5 @@ Data columns (total 14 columns):
  12  contractSize       62 non-null     object             
  13  currency           62 non-null     object             
 dtypes: bool(1), datetime64[ns, UTC](1), float64(8), int64(1), object(3)
+```
 
