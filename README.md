@@ -35,26 +35,4 @@ The models must demonstrate resilience to market anomalies and maintain predicti
 ### Efficiency: 
 The models should be computationally efficient, providing timely predictions that can be effectively integrated into our trading strategies.
 
-The following is the information of the put option data that we use: 
-```
-RangeIndex: 62 entries, 0 to 61
-Data columns (total 14 columns):
- #   Column             Non-Null Count  Dtype              
----  ------             --------------  -----              
- 0   contractSymbol     62 non-null     object             
- 1   lastTradeDate      62 non-null     datetime64[ns, UTC]
- 2   strike             62 non-null     float64            
- 3   lastPrice          62 non-null     float64            
- 4   bid                62 non-null     float64            
- 5   ask                62 non-null     float64            
- 6   change             62 non-null     float64            
- 7   percentChange      62 non-null     float64            
- 8   volume             61 non-null     float64            
- 9   openInterest       62 non-null     int64              
- 10  impliedVolatility  62 non-null     float64            
- 11  inTheMoney         62 non-null     bool               
- 12  contractSize       62 non-null     object             
- 13  currency           62 non-null     object             
-dtypes: bool(1), datetime64[ns, UTC](1), float64(8), int64(1), object(3)
-```
 
