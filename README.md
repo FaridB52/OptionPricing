@@ -1,4 +1,4 @@
-# OptionPricing
+# Option Pricing
 
 Machine Learning and Option Pricing: A Proposal for Predicting Option Price for the Ticker ‘SPY’
 This is a proposal for option pricing strategies by incorporating advanced machine learning techniques. Given the complexity and dynamic nature of financial markets, especially in the realm of options trading, traditional models like the Black-Scholes, while foundational, often fall short of capturing real-world intricacies. By leveraging machine learning, we can potentially achieve more accurate and robust option pricing; we study the ticker symbol ‘SPY’, an S&P 500 ETF.
